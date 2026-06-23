@@ -4,12 +4,17 @@
         <attribute name="name" value="flowgorithm"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-06-23 02:20:27 PM"/>
+        <attribute name="saved" value="2026-06-23 02:34:34 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMjoxODo0NSBQTTsyNzU2"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMjoyMDoyNyBQTTsxOzI4NTc="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMjozNDozNCBQTTsyOzI4NjE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
-        <body/>
+        <body>
+            <declare name="MealPrice" type="Integer" array="False" size=""/>
+            <input variable="MealPrice"/>
+            <declare name="TotalPrice" type="Integer" array="False" size=""/>
+            <output expression="TotalPrice" newline="True"/>
+        </body>
     </function>
 </flowgorithm>
